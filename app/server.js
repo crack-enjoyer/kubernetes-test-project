@@ -198,7 +198,6 @@ app.delete('/todos/:id', async (req, res) => {
   }
 });
 
-// 404 handler
 app.use((req, res) => {
   res.status(404).json({
     success: false,
